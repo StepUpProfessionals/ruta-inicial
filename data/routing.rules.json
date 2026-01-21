@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "rules": [
+    {
+      "id": "route_pronunciation_foundations_primary",
+      "priority": 10,
+      "when": {
+        "any": [
+          { "eq": ["q3_blocker", "pronunciation"] },
+          { "eq": ["q4_level", "basic"] }
+        ]
+      },
+      "route": "pronunciation_foundations"
+    },
+    {
+      "id": "route_listening_training",
+      "priority": 20,
+      "when": {
+        "any": [
+          { "eq": ["q3_blocker", "listening"] }
+        ]
+      },
+      "route": "listening_training"
+    },
+    {
+      "id": "route_confident_speech",
+      "priority": 30,
+      "when": {
+        "all": [
+          { "eq": ["q3_blocker", "speaking_confidence"] },
+          { "any": [
+            { "eq": ["q4_level", "intermediate"] },
+            { "eq": ["q4_level", "advanced"] }
+          ] },
+          { "any": [
+            { "eq": ["q2_goal", "work"] },
+            { "eq": ["q2_goal", "interviews"] },
+            { "eq": ["q2_goal", "confidence"] }
+          ] }
+        ]
+      },
+      "route": "confident_speech"
+    },
+    {
+      "id": "route_ebooks_functional",
+      "priority": 40,
+      "when": {
+        "any": [
+          { "eq": ["q3_blocker", "vocabulary"] },
+          { "eq": ["q3_blocker", "grammar"] }
+        ]
+      },
+      "route": "ebooks"
+    },
+    {
+      "id": "route_exam_diagnostic",
+      "priority": 50,
+      "when": {
+        "all": [
+          { "eq": ["q2_goal", "exam"] },
+          { "any": [
+            { "eq": ["q4_level", "intermediate"] },
+            { "eq": ["q4_level", "advanced"] }
+          ] }
+        ]
+      },
+      "route": "diagnostic"
+    }
+  ],
+  "fallback": "pronunciation_foundations"
+}

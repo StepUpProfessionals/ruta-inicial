@@ -1,0 +1,62 @@
+{
+  "version": "1.0.0",
+  "title": "Ruta inicial",
+  "subtitle": "Responda 4 preguntas y lo llevaremos a lo que mejor se ajuste a sus necesidades.",
+  "questions": [
+    {
+      "id": "q1_identity",
+      "title": "¿Cuál de estas opciones lo describe mejor?",
+      "help": "",
+      "options": [
+        { "id": "student", "label": "Soy estudiante" },
+        { "id": "professional", "label": "Soy profesional" },
+        { "id": "job_seeker", "label": "Busco trabajo" },
+        { "id": "entrepreneur", "label": "Tengo un negocio / soy emprendedor(a)" },
+        { "id": "improve", "label": "Solo quiero mejorar mi inglés" }
+      ]
+    },
+    {
+      "id": "q2_goal",
+      "title": "¿Para qué necesita el inglés en este momento?",
+      "help": "Elegimos una ruta según su necesidad inmediata.",
+      "options": [
+        { "id": "exam", "label": "Para un examen o certificación" },
+        { "id": "work", "label": "Para mi trabajo o profesión" },
+        { "id": "travel", "label": "Para viajar" },
+        { "id": "interviews", "label": "Para entrevistas de trabajo" },
+        { "id": "confidence", "label": "Para comunicarme con más seguridad" }
+      ]
+    },
+    {
+      "id": "q3_blocker",
+      "title": "¿Qué es lo que más se le dificulta en inglés?",
+      "help": "Elija el bloqueo principal.",
+      "options": [
+        { "id": "vocabulary", "label": "Vocabulario" },
+        { "id": "grammar", "label": "Gramática" },
+        { "id": "pronunciation", "label": "Pronunciación" },
+        { "id": "listening", "label": "Comprensión auditiva (listening)" },
+        { "id": "speaking_confidence", "label": "Hablar con seguridad" }
+      ]
+    },
+    {
+      "id": "q4_level",
+      "title": "¿Con cuál de estas frases se identifica más?",
+      "help": "Esto nos ayuda a elegir si su ruta será guiada en español o totalmente en inglés",
+      "options": [
+        {
+          "id": "basic",
+          "label": "Entiendo lo básico, pero me cuesta hablar o pronunciar con claridad"
+        },
+        {
+          "id": "intermediate",
+          "label": "Puedo comunicarme, pero la pronunciación o el listening afectan mi confianza"
+        },
+        {
+          "id": "advanced",
+          "label": "Uso el inglés, pero quiero sonar más claro, natural y profesional"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "routes": {
+    "pronunciation_foundations": {
+      "title": "Ya conocemos sus necesidades. Ahora, evaluemos su nivel de inglés",
+      "summary": "Realice una evaluación breve para estimar su nivel y recibir una recomendación precisa.",
+      "ctaLabel": "Iniciar diagnóstico",
+      "href": "https://stepuplanguages.com/diagnostico-de-nivel/"
+    },
+    "listening_training": {
+      "title": "Ya conocemos sus necesidades. Ahora, evaluemos su nivel de inglés",
+      "summary": "Realice una evaluación breve para estimar su nivel y recibir una recomendación precisa.",
+      "ctaLabel": "Iniciar diagnóstico",
+      "href": "https://stepuplanguages.com/diagnostico-de-nivel/"
+    },
+    "confident_speech": {
+      "title": "Ya conocemos sus necesidades. Ahora, evaluemos su nivel de inglés",
+      "summary": "Realice una evaluación breve para estimar su nivel y recibir una recomendación precisa.",
+      "ctaLabel": "Iniciar diagnóstico",
+      "href": "https://stepuplanguages.com/diagnostico-de-nivel/"
+    },
+    "ebooks": {
+      "title": "Ya conocemos sus necesidades. Ahora, evaluemos su nivel de inglés",
+      "summary": "Realice una evaluación breve para estimar su nivel y recibir una recomendación precisa.",
+      "ctaLabel": "Iniciar diagnóstico",
+      "href": "https://stepuplanguages.com/diagnostico-de-nivel/"
+    },
+    "diagnostic": {
+      "title": "Ya conocemos sus necesidades. Ahora, evaluemos su nivel de inglés",
+      "summary": "Realice una evaluación breve para estimar su nivel y recibir una recomendación precisa.",
+      "ctaLabel": "Iniciar diagnóstico",
+      "href": "https://stepuplanguages.com/diagnostico-de-nivel/"
+    }
+  }
+}
