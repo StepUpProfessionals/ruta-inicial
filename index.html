@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Step Up — Codex (Ruta Inicial)</title>
+  <link rel="stylesheet" href="./src/styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="header">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true"></div>
+        <div>
+          <div class="brand-name">Step Up</div>
+          <div class="brand-sub">Ruta inicial — Responda 4 preguntas y lo llevaremos a lo que mejor se ajuste a sus necesidades</div>
+        </div>
+      </div>
+      <div class="progress" aria-label="Progreso">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+    </header>
+
+    <section class="card" id="app" aria-live="polite"></section>
+
+    <footer class="footer">
+      <button class="linklike" id="resetBtn" type="button">Reiniciar</button>
+      <span class="footer-note">“It does not matter how slowly you go so long as you do not stop.” — Confucius</span>
+    </footer>
+  </main>
+
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
