@@ -84,20 +84,23 @@ body{
 .btn{
   width:100%;
   text-align:left;
-  padding: 14px 14px;
+  padding: 14px 16px;
   border-radius: 14px;
-  border: 1px solid rgba(255,255,255,.10);
-  background: rgba(255,255,255,.04);
+  border: 1px solid #cbd5e1;   /* borde visible y elegante */
+  background: #ffffff;        /* fondo blanco real */
   color: var(--text);
   cursor:pointer;
-  transition: transform .05s ease, background .2s ease, border-color .2s ease;
+  transition: background .15s ease, border-color .15s ease;
   font-size: 15px;
   line-height:1.25;
 }
+
+
 .btn:hover{
-  background: rgba(255,255,255,.07);
-  border-color: rgba(255,255,255,.14);
+  background: #f8fafc;
+  border-color: #94a3b8;
 }
+
 .btn:active{ transform: scale(.995); }
 
 .row{
