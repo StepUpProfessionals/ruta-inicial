@@ -62,12 +62,13 @@ body{
 }
 
 .card{
-  background: rgba(17,24,39,.86);
-  border: 1px solid rgba(255,255,255,.08);
+  background: var(--card);
+  border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 22px;
-  box-shadow: 0 12px 40px rgba(0,0,0,.35);
+  box-shadow: 0 12px 40px rgba(0,0,0,.08);
 }
+
 
 .h1{font-size:22px;margin:0 0 8px}
 .p{color:var(--muted);margin:0 0 18px;line-height:1.45}
